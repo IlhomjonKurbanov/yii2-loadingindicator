@@ -1,0 +1,25 @@
+{
+    "name": "ercling/yii2-loadingindicator",
+    "type": "yii2-extension",
+    "description": "Simple automatic AJAX status indicator. Use themes from PACE plugin",
+    "keywords": ["yii2", "indicator", "loading"],
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/ercling/yii2-loadingindicator/issues",
+        "source": "https://github.com/ercling/yii2-loadingindicator"
+    },
+    "authors": [
+        {
+            "name": "Oleksandr Mykhailiuta",
+            "email": "ercling@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "ercling\\loadingindicator\\": ""
+        }
+    }
+}
