@@ -34,7 +34,7 @@ $(document).ready(function(){
     $(document).ajaxStart(function() {
         yii2LoadingIndicator.start();
     });
-    $(document).ajaxComplete(function() {
+    $(document).ajaxStop(function() {
         yii2LoadingIndicator.stop();
     });
 });
